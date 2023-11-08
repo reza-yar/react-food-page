@@ -42,8 +42,6 @@ function Production(props) {
         </div>
     )
 
-
-
 }
 
 export { Production }
