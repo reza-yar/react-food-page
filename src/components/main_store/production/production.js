@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import { change_number } from "../../../numberChange";
+import { clear } from "@testing-library/user-event/dist/clear";
 
 function Production(props) {
 
@@ -19,7 +20,8 @@ function Production(props) {
         }
         set_food_count(food_count - 1);
     }
-
+    
+    
     let added_food = props.foodInfo;
     added_food.count = food_count;
 
