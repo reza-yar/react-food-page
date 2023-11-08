@@ -1,0 +1,41 @@
+.navbar_container {
+  padding: 2vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.profile_container {
+  position: relative;
+  max-width: 200px;
+  cursor: pointer;
+  i{
+    margin-left:5px;
+    color: rgb(66, 66, 255);
+  }
+  ul {
+    position: absolute;
+    display: none;
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  li {
+    padding: 5px 0;
+    background-color: rgb(144, 144, 255);
+    color: rgb(234, 234, 234);
+    backdrop-filter: blur(3px);
+    text-align: center;
+    i {
+      color: white;
+      
+    }
+    &:hover i{
+      color: rgb(19, 19, 19);
+    }
+  }
+  &:hover ul {
+    display: block;
+  }
+}

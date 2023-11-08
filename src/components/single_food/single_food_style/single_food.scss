@@ -1,0 +1,22 @@
+.single_food_container {
+//   border: 1px solid red;
+  width: 100%;
+
+  .single_food{
+    // border: 1px solid black;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+//   .rsis-container{
+//     border: 5px solid yellow;
+//   }
+  .rsis-image {
+    background-size: cover!important;
+    background-position: center!important;
+    
+    // border: 5px solid blue;
+  }
+}

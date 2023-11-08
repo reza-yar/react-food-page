@@ -1,0 +1,27 @@
+.personal_inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.personal_inputs * {
+  margin: 10px 0;
+}
+.personal_inputs .personal_div {
+  background-color: rgb(228, 228, 228);
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgb(228, 228, 228);
+  padding: 10px;
+}
+.personal_inputs .personal_div input {
+  outline: none;
+  border: none;
+  text-align: center;
+  padding: 5px;
+}
+.personal_inputs .personal_div label {
+  width: 100px;
+  text-align: center;
+}
+.personal_inputs .personal_div i {
+  margin-right: 10px;
+}/*# sourceMappingURL=personal_page.css.map */

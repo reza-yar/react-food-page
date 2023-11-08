@@ -1,0 +1,13 @@
+.single_food_container {
+  width: 100%;
+}
+.single_food_container .single_food {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.single_food_container .rsis-image {
+  background-size: cover !important;
+  background-position: center !important;
+}/*# sourceMappingURL=single_food.css.map */

@@ -1,0 +1,96 @@
+.login_main {
+  position: relative;
+  background-color: rgb(33, 27, 47);
+  color: rgb(217, 217, 217);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login_main .modal_container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+.login_main .modal_container h3 {
+  background-color: white;
+  font-size: 3vw;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  color: rgb(50, 50, 50);
+}
+.login_main form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.login_main form h1 {
+  margin-bottom: 18px;
+  color: white;
+}
+.login_main form .input_area div {
+  margin: 18px 0;
+  background-color: rgb(33, 27, 47);
+  padding: 10px 20px;
+  border: 2px solid red;
+  border-radius: 50px;
+}
+.login_main form .input_area input {
+  background-color: transparent;
+  margin-right: 10px;
+  color: white;
+  border: none;
+  outline: none;
+}
+.login_main form .input_area input::-moz-placeholder {
+  color: white;
+}
+.login_main form .input_area input::placeholder {
+  color: white;
+}
+.login_main form a {
+  width: 100%;
+  margin: 18px 0;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(111, 111, 111);
+  transition: 0.3s;
+}
+.login_main form a:hover {
+  color: white;
+}
+.login_main form button {
+  background-color: red;
+  color: white;
+  width: 50%;
+  padding: 10px;
+  margin: 18px 0;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+}
+.login_main form button:hover {
+  width: 100%;
+}
+.login_main .hide {
+  display: none;
+}
+.login_main .show {
+  display: flex;
+}
+
+@media screen and (max-height: 350px) {
+  form .input_area {
+    display: flex;
+    gap: 10px;
+  }
+}/*# sourceMappingURL=login_page.css.map */

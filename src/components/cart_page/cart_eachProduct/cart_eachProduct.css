@@ -1,0 +1,23 @@
+.eachRow {
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 1px 1px 10px rgb(146, 146, 146);
+}
+.eachRow img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+.eachRow h4 {
+  margin: 20px 0;
+}
+.eachRow i {
+  transition: 0.3s;
+}
+.eachRow i:hover {
+  color: red;
+  transform: rotateZ(180deg) scale(2);
+}/*# sourceMappingURL=cart_eachProduct.css.map */
