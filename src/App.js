@@ -4,6 +4,7 @@ import { foods_database } from "./context";
 import { Main_section } from "./components/main_store/main_section/main_section";
 
 
+
 class App extends React.PureComponent {
 
     constructor(props) {
