@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import './navbar_style/navbar.css';
 import { useEffect } from "react";
 import { Typography } from "@mui/material";
+import PersonIcon from '@mui/icons-material/Person';
 
 function NavbarSection(props) {
 
@@ -15,6 +16,7 @@ function NavbarSection(props) {
 
         <div className="navbar_container">
             <Typography>typography</Typography>
+            <PersonIcon/>
             <button className="btn btn-primary" onClick={props.gotoCart}>
                 <i className="fa fa-shopping-basket"></i>
                 <span>سبد خرید</span>
