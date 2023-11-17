@@ -17,16 +17,13 @@ function NavbarSection(props) {
     return (
 
         <div className="navbar_container">
-            <Typography>typography</Typography>
-            <PersonIcon/>
-            <Button variant="contained" startIcon={<ShoppingCartIcon />}>سبد خرید</Button>
-            <button className="btn btn-primary" onClick={props.gotoCart}>
+            
+            <Button variant="contained" startIcon={<ShoppingCartIcon />} onClick={props.gotoCart}>سبد خرید</Button>
+           
+            {/* <button className="btn btn-primary" onClick={props.gotoCart}>
                 <i className="fa fa-shopping-basket"></i>
                 <span>سبد خرید</span>
-            </button>
-
-
-
+            </button> */}
 
             <div className="profile_container">
                 <i className="fa fa-user"></i>
