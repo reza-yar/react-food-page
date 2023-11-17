@@ -3,6 +3,8 @@ import './navbar_style/navbar.css';
 import { useEffect } from "react";
 import { Typography } from "@mui/material";
 import PersonIcon from '@mui/icons-material/Person';
+import { Button } from '@mui/material';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 function NavbarSection(props) {
 
@@ -17,6 +19,7 @@ function NavbarSection(props) {
         <div className="navbar_container">
             <Typography>typography</Typography>
             <PersonIcon/>
+            <Button variant="contained" startIcon={<ShoppingCartIcon />}>سبد خرید</Button>
             <button className="btn btn-primary" onClick={props.gotoCart}>
                 <i className="fa fa-shopping-basket"></i>
                 <span>سبد خرید</span>
